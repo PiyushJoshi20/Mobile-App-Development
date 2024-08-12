@@ -20,6 +20,8 @@ public class HomeActivity extends AppCompatActivity {
         ImageView icon5 = findViewById(R.id.icon5);
         ImageView icon6 = findViewById(R.id.icon6);
 
+
+        //second commit
         icon1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
