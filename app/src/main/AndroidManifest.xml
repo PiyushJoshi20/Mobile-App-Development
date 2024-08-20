@@ -12,6 +12,16 @@
         <activity android:name=".HomeActivity" android:exported="false"></activity>
         <activity android:name=".SignUpActivity" android:exported="false"></activity>
         <activity android:name=".LoginActivity" android:exported="false"></activity>
+<!--        //Declare the New Activity in the Manifest AndroidManifest.xml-->
+        <activity android:name=".LeaveApplicationActivity"></activity>
+        <activity android:name=".Attendanceactivity"></activity>
+        <activity android:name=".GradesActivity"></activity>
+        <activity android:name=".TimetableActivity"></activity>
+        <activity android:name=".LibraryActivity"></activity>
+        <activity android:name=".SettingsActivity"></activity>
+
+
+
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
